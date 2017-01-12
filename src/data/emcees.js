@@ -1,8 +1,9 @@
 // src/data/emcees.js
 const emcees = [
   {
-    'id': 'jay-z',
+    'id': '1',
     'ranking': '1',
+    'rapper': 'Jay-Z',
     'name': 'Sean Carter',
     'city': 'Brooklyn',
     'state': 'New York',

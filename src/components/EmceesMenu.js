@@ -9,7 +9,7 @@ export default class EmceesMenu extends React.Component {
       <nav className="emcees-menu">
         {emcees.map(menuEmcee => {
           return <Link key={menuEmcee.id} to={`/emcee/${menuEmcee.id}`} activeClassName="active">
-            {menuEmcee.name}
+            {menuEmcee.rapper}
           </Link>;
         })}
       </nav>

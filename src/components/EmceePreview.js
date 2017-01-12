@@ -8,8 +8,8 @@ export default class EmceePreview extends React.Component {
       <Link to={`/emcee/${this.props.id}`}>
         <div className="emcee-preview">
           <img src={`img/${this.props.image}`}/>
-          <h2 className="name">{this.props.name}</h2>
-          // <span className="albums-count"><img src="/img/medal.png"/> {this.props.albums.length}</span>
+          <h2 className="name">{this.props.rapper}</h2>
+          <span className="albums-count"><img src="/img/platinum.png"/> {this.props.albums.length}</span>
         </div>
       </Link>
     );

@@ -16,6 +16,8 @@ export default class Layout extends React.Component {
           <p>
             This is a demo app to showcase universal rendering and routing with <strong>React</strong> and <strong>Express</strong>.
           </p>
+        <br/>
+        <p><strong>(It's also the most accurate Top 5 list you'll find!)</strong></p>
         </footer>
       </div>
     );

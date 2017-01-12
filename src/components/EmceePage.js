@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import NotFoundPage from './NotFoundPage';
 import EmceesMenu from './EmceesMenu';
+import Album from './Album';
 import emcees from '../data/emcees';
 
 export default class EmceePage extends React.Component {
@@ -23,10 +24,10 @@ export default class EmceePage extends React.Component {
             <h2 className="name">{emcee.name}</h2>
           </div>
           <section className="description">
-            {emcee.name} is from {emcee.city}, {emcee.state}
+            {emcee.rapper} is from {emcee.city}, {emcee.state}
             born in {emcee.birth} (Find out more on <a href={emcee.link} target="_blank">Wikipedia</a>).
           </section>
-          <section className="medals">
+          <section className="albums">
             <p>Discography includes <strong>{emcee.albums.length}</strong> albums:</p>
             <ul>{
               emcee.albums.map((album, i) => <Album key={i} {...album}/>)
